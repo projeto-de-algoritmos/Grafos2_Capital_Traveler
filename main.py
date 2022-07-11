@@ -270,6 +270,8 @@ capitais_lista = [
     'Aracajú'
 ]
 
+capitais_lista = sorted(capitais_lista)
+
 def printa_capitais():
     for capital in range(len(capitais_lista)):
         print(f"{capital} - {capitais_lista[capital]}")
