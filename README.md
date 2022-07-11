@@ -4,14 +4,17 @@
 **Conteúdo da Disciplina**: XXXXXXXXXX<br>
 
 ## Alunos
+Dupla 18
+
 |Matrícula | Aluno |
 | -- | -- |
 | 19/0111836 |  Luan Vasco Cavalcante |
 | 18/0130889  |  Sávio Cunha de Carvalho |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
-dupla 18
+O objetivo do trabalho é mostrar como o Dijkstra funciona usando uma representação **fictícia** de um mapa do Brasil.
+A imagem abaixo representa rodovias **fictícias** entre **capitais** brasileiras. 
+O objetivo é escolher um ponto de partida e um ponto de chegada e o caminho mais **curto** é escolhido com base na **distância** que serão os **pesos** das arestas.
 
 ## Screenshots
 Adicione 3 ou mais screenshots do projeto em funcionamento.

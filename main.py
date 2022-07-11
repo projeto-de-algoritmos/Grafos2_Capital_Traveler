@@ -130,11 +130,9 @@ capitais = {'Porto Velho':[
             ],
 }
 
-
-
 # ter listas de capitais - OK
-# colocar distancias de uma capital pra outra 
-# montar grafo
+# colocar distancias de uma capital pra outra ok
+# montar grafo ok 
 # rodar o treco
 
 from math import inf
@@ -262,7 +260,6 @@ def main():
     bala = graph.find_shortest_path(start,end)
     print("Hello World\n")
     print(bala)
-
 
 if __name__ == "__main__":
     main()
