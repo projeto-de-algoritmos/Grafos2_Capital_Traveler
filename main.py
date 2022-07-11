@@ -1,3 +1,6 @@
+from math import inf
+
+
 capitais = {'Porto Velho':[
                 ('Rio Branco',544),
                 ('Manaus',901),
@@ -130,13 +133,6 @@ capitais = {'Porto Velho':[
             ],
 }
 
-# ter listas de capitais - OK
-# colocar distancias de uma capital pra outra ok
-# montar grafo ok 
-# rodar o treco
-
-from math import inf
-
 class GraphModel():
     
     def __init__(self, edges: dict) -> None: 
@@ -247,19 +243,71 @@ class GraphModel():
 
         return distances
 
+capitais_lista = [
+    'Manaus',
+    'Rio Branco',
+    'Campo Grande',
+    'Macapá',
+    'Brasília',
+    'Boa Vista',
+    'Cuiabá',
+    'Palmas',
+    'São Paulo',
+    'Teresina',
+    'Rio de Janeiro',
+    'Belém',
+    'Goiânia',
+    'Salvador',
+    'Florianópolis',
+    'São Luís',
+    'Maceió',
+    'Porto Alegre',
+    'Curitiba',
+    'Belo Horizonte',
+    'Fortaleza',
+    'Recife',
+    'João Pessoa',
+    'Aracajú'
+]
+
+def printa_capitais():
+    for capital in range(len(capitais_lista)):
+        print(f"{capital} - {capitais_lista[capital]}")
+
+
+def menu():
+    print("Welcome to Capital Traveler!!")
+    print("There youu go !!\nChoose One Brazil's Capital as a starting point!")
+
+    printa_capitais()
+
+    start = int(input("Escolha : "))
+    start = capitais_lista[start]
+
+    end = int(input("Now choose the ending capital : "))
+    end = capitais_lista[end]
+
+    return start,end
+
+def shortest_path(graph,start,end):
+    bala = graph.find_shortest_path(start,end)
+    return bala    
 
 def main():
-
+    # declaração do grafo
     graph = GraphModel(edges=capitais)
+    # start end
+    start,end = menu()
 
-    bala = ()
+    bala = shortest_path(graph,start,end)
 
-    start = 'Brasília'
-    end = 'Fortaleza'
+    print("The shortest path is : \n")
+    print(bala[0])
+    print(f"With the total distance of : {bala[1]}\n\n")
 
-    bala = graph.find_shortest_path(start,end)
-    print("Hello World\n")
-    print(bala)
+    again = int(input("Do you want to travel again ?\n1 - Yes\n0 - No\n:: "))
+    if again == 1:
+        main()
 
 if __name__ == "__main__":
     main()
