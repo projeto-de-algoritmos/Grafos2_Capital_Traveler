@@ -19,11 +19,19 @@ O objetivo é escolher um ponto de partida e um ponto de chegada e o caminho mai
 
 A tabela de distâncias utilizadas foi encontrada no link : https://goodway.com.br/distancias.htm .
 
+Foi levado em conta que esses são os únicos caminhos rodoviários. É uma representação **fictícia**.
+Não foram adicionados os pesos das arestas para não poluir as imagens.
+
+![alt text](https://github.com/projeto-de-algoritmos/Grafos2_Capital_Traveler/blob/master/media/BrasilArestas.png)
+
+![alt text](https://github.com/projeto-de-algoritmos/Grafos2_Capital_Traveler/blob/master/media/BrasilSemAresta.jpeg)
+
 ## Screenshots
 Adicione 3 ou mais screenshots do projeto em funcionamento.
 
 ![alt text](https://github.com/projeto-de-algoritmos/Grafos2_Capital_Traveler/blob/master/media/BrasilArestas.png)
 
+![alt text](https://github.com/projeto-de-algoritmos/Grafos2_Capital_Traveler/blob/master/media/BrasilSemAresta.jpeg)
 
 ## Instalação 
 **Linguagem**: Python<br>
