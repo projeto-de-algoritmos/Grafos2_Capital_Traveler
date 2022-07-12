@@ -1,6 +1,5 @@
 from math import inf
 
-
 capitais = {'Porto Velho':[
                 ('Rio Branco',544),
                 ('Manaus',901),
@@ -301,12 +300,14 @@ def main():
     # start end
     start,end = menu()
 
+    # caminho mais curto
     bala = shortest_path(graph,start,end)
 
     print("The shortest path is : \n")
     print(bala[0])
     print(f"With the total distance of : {bala[1]}\n\n")
 
+    # quer viajar mais ? 
     again = int(input("Do you want to travel again ?\n1 - Yes\n0 - No\n:: "))
     if again == 1:
         main()
