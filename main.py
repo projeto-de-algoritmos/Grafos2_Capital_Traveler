@@ -303,8 +303,12 @@ def main():
     # caminho mais curto
     bala = shortest_path(graph,start,end)
 
-    print("The shortest path is : \n")
-    print(bala[0])
+    print(f"The shortest path is between {start} and {end} : \n")
+
+    for capital in range(len(bala[0]) - 1):
+        print(f" {bala[0][capital]} ->",end = "")
+
+    print(f" {bala[0][capital+1]}\n")
     print(f"With the total distance of : {bala[1]}km\n\n")
 
     # quer viajar mais ? 
