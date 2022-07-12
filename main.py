@@ -305,7 +305,7 @@ def main():
 
     print("The shortest path is : \n")
     print(bala[0])
-    print(f"With the total distance of : {bala[1]}\n\n")
+    print(f"With the total distance of : {bala[1]}km\n\n")
 
     # quer viajar mais ? 
     again = int(input("Do you want to travel again ?\n1 - Yes\n0 - No\n:: "))
