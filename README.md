@@ -27,11 +27,15 @@ Não foram adicionados os pesos das arestas para não poluir as imagens.
 ![alt text](https://github.com/projeto-de-algoritmos/Grafos2_Capital_Traveler/blob/master/media/BrasilSemAresta.jpeg)
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+É printado um menu com escolha de uma cidade por número inteiro.
+Primeiro uma cidade de partida e depois uma cidade de chegada.
+![alt text](https://github.com/projeto-de-algoritmos/Grafos2_Capital_Traveler/blob/master/media/menu.png)
 
-![alt text](https://github.com/projeto-de-algoritmos/Grafos2_Capital_Traveler/blob/master/media/BrasilArestas.png)
+Resultado do algoritmo de cheapest path com **Dijkstra**
+![alt text](https://github.com/projeto-de-algoritmos/Grafos2_Capital_Traveler/blob/master/media/funcionamento.png)
 
-![alt text](https://github.com/projeto-de-algoritmos/Grafos2_Capital_Traveler/blob/master/media/BrasilSemAresta.jpeg)
+Outro exemplo : Brasília -> Fortaleza
+![alt text](https://github.com/projeto-de-algoritmos/Grafos2_Capital_Traveler/blob/master/media/bsbfortal.png)
 
 ## Instalação 
 **Linguagem**: Python<br>
