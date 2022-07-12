@@ -48,6 +48,8 @@ Ter python3 instalada na máquina.
 
 O código roda no próprio terminal e seu uso é bem simples. Você escolhe uma capital de uma lista enumerada como ponto de partida e escolhe outra como ponto de chegada.
 
+**Todas as entradas são numeros inteiros e devem estar no intervalo proposto.
+
 Comece clonando o repositório com o comando :<br>
     git clone https://github.com/projeto-de-algoritmos/Grafos2_Capital_Traveler.git
 
