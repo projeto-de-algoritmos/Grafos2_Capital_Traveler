@@ -12,7 +12,7 @@ Dupla 18
 | 18/0130889  |  Sávio Cunha de Carvalho |
 
 ## Sobre 
-O objetivo do trabalho é mostrar como o Dijkstra funciona usando uma representação **fictícia** de um mapa do Brasil. O algoritmo de cheapest path do Dijkstra calcula o caminho mais curto entre os 2 nós do grafo escolhido.
+O objetivo do trabalho é mostrar como o **Dijkstra** funciona usando uma representação **fictícia** de um mapa do Brasil. O algoritmo de cheapest path do Dijkstra calcula o caminho mais curto entre os 2 nós do grafo escolhido.
 
 A imagem abaixo representa rodovias **fictícias** entre **capitais** brasileiras. 
 O objetivo é escolher um ponto de partida e um ponto de chegada e o caminho mais **curto** é escolhido com base na **distância** que serão os **pesos** das arestas.
@@ -21,6 +21,9 @@ A tabela de distâncias utilizadas foi encontrada no link : https://goodway.com.
 
 ## Screenshots
 Adicione 3 ou mais screenshots do projeto em funcionamento.
+
+![alt text](https://github.com/projeto-de-algoritmos/Grafos2_Capital_Traveler/blob/master/media/BrasilArestas.png)
+
 
 ## Instalação 
 **Linguagem**: Python<br>
